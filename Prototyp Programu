@@ -18,15 +18,15 @@ tlacitko1.pull = digitalio.Pull.UP
 
 # Hlavní smyčka
 while True:
-    if not tlacitko1.value:  # Kontrola, zda je tlačítko stisknuto (invertováno)
+    if not tlacitko1.value:  # Kontrola, zda je tlačítko stisknuto 
         print("Stisk")
         keyboard.press(Keycode.E)  
         sleep(0.1)
         keyboard.release(Keycode.E)  
         
-        # Čekání, dokud tlačítko zůstává stisknuto (invertováno)
+        # Čekání, dokud tlačítko zůstává stisknuto 
         while not tlacitko1.value:  
-            sleep(0.02)  # Krátké čekání, dokud tlačítko zůstává stisknuto
+            sleep(0.02)  # Menší Debouncing
 
     # Hlavní smyčka čeká před dalším čtením
     sleep(0.1)
