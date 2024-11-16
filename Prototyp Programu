@@ -1,0 +1,32 @@
+from time import sleep
+import digitalio
+import board
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keycode import Keycode
+
+# Definice pinu tlačítka
+tlacitko1_pin = board.GP14
+
+# Inicializace HID klávesnice
+keyboard = Keyboard(usb_hid.devices)
+
+# Nastavení tlačítka s Pull.UP
+tlacitko1 = digitalio.DigitalInOut(tlacitko1_pin)
+tlacitko1.direction = digitalio.Direction.INPUT
+tlacitko1.pull = digitalio.Pull.UP
+
+# Hlavní smyčka
+while True:
+    if not tlacitko1.value:  # Kontrola, zda je tlačítko stisknuto (invertováno)
+        print("Stisk")
+        keyboard.press(Keycode.E)  
+        sleep(0.1)
+        keyboard.release(Keycode.E)  
+        
+        # Čekání, dokud tlačítko zůstává stisknuto (invertováno)
+        while not tlacitko1.value:  
+            sleep(0.02)  # Krátké čekání, dokud tlačítko zůstává stisknuto
+
+    # Hlavní smyčka čeká před dalším čtením
+    sleep(0.1)
