@@ -15,6 +15,8 @@ tlacitko6_pin = board.GP15
 tlacitko7_pin = board.GP16
 tlacitko8_pin = board.GP17
 tlacitko9_pin = board.GP18
+tlacitko10_pin = board.GP19
+tlacitko11_pin = board.GP20
 
 
 # Nastavení tlačítka s Pull.UP
@@ -53,6 +55,14 @@ tlacitko8.pull = digitalio.Pull.UP
 tlacitko9 = digitalio.DigitalInOut(tlacitko9_pin)
 tlacitko9.direction = digitalio.Direction.INPUT
 tlacitko9.pull = digitalio.Pull.UP
+
+tlacitko10 = digitalio.DigitalInOut(tlacitko10_pin)
+tlacitko10.direction = digitalio.Direction.INPUT
+tlacitko10.pull = digitalio.Pull.UP
+
+tlacitko11 = digitalio.DigitalInOut(tlacitko11_pin)
+tlacitko11.direction = digitalio.Direction.INPUT
+tlacitko11.pull = digitalio.Pull.UP
 
 # Inicializace HID klávesnice
 keyboard = Keyboard(usb_hid.devices)
