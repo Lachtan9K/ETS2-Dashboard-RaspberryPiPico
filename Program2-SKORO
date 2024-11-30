@@ -1,0 +1,195 @@
+from time import sleep
+import digitalio
+import board
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keycode import Keycode
+
+# Definice pinů tlačítek
+tlacitko1_pin = board.GP3
+tlacitko2_pin = board.GP5
+tlacitko3_pin = board.GP7
+tlacitko4_pin = board.GP9
+tlacitko5_pin = board.GP13
+tlacitko6_pin = board.GP15
+tlacitko7_pin = board.GP16
+tlacitko8_pin = board.GP19
+tlacitko9_pin = board.GP21
+tlacitko10_pin = board.GP22
+tlacitko11_pin = board.GP11  # Přidání 11. tlačítka
+
+# Inicializace HID klávesnice
+keyboard = Keyboard(usb_hid.devices)
+
+# Nastavení tlačítek s Pull.UP
+tlacitko1 = digitalio.DigitalInOut(tlacitko1_pin)
+tlacitko1.direction = digitalio.Direction.INPUT
+tlacitko1.pull = digitalio.Pull.UP
+
+tlacitko2 = digitalio.DigitalInOut(tlacitko2_pin)
+tlacitko2.direction = digitalio.Direction.INPUT
+tlacitko2.pull = digitalio.Pull.UP
+
+tlacitko3 = digitalio.DigitalInOut(tlacitko3_pin)
+tlacitko3.direction = digitalio.Direction.INPUT
+tlacitko3.pull = digitalio.Pull.UP
+
+tlacitko4 = digitalio.DigitalInOut(tlacitko4_pin)
+tlacitko4.direction = digitalio.Direction.INPUT
+tlacitko4.pull = digitalio.Pull.UP
+
+tlacitko5 = digitalio.DigitalInOut(tlacitko5_pin)
+tlacitko5.direction = digitalio.Direction.INPUT
+tlacitko5.pull = digitalio.Pull.UP
+
+tlacitko6 = digitalio.DigitalInOut(tlacitko6_pin)
+tlacitko6.direction = digitalio.Direction.INPUT
+tlacitko6.pull = digitalio.Pull.UP
+
+tlacitko7 = digitalio.DigitalInOut(tlacitko7_pin)
+tlacitko7.direction = digitalio.Direction.INPUT
+tlacitko7.pull = digitalio.Pull.UP
+
+tlacitko8 = digitalio.DigitalInOut(tlacitko8_pin)
+tlacitko8.direction = digitalio.Direction.INPUT
+tlacitko8.pull = digitalio.Pull.UP
+
+tlacitko9 = digitalio.DigitalInOut(tlacitko9_pin)
+tlacitko9.direction = digitalio.Direction.INPUT
+tlacitko9.pull = digitalio.Pull.UP
+
+tlacitko10 = digitalio.DigitalInOut(tlacitko10_pin)
+tlacitko10.direction = digitalio.Direction.INPUT
+tlacitko10.pull = digitalio.Pull.UP
+
+tlacitko11 = digitalio.DigitalInOut(tlacitko11_pin)  # Inicializace 11. tlačítka
+tlacitko11.direction = digitalio.Direction.INPUT
+tlacitko11.pull = digitalio.Pull.UP
+
+# Proměnné pro sledování stavu tlačítek
+stisknuto1 = False
+stisknuto2 = False
+stisknuto3 = False
+stisknuto4 = False
+stisknuto5 = False
+stisknuto6 = False
+stisknuto7 = False
+stisknuto8 = False
+stisknuto9 = False
+stisknuto10 = False
+stisknuto11 = False  # Stav pro 11. tlačítko
+
+# Hlavní smyčka
+while True:
+    # Přidej malé zpoždění na začátku smyčky, aby se zajistilo správné fungování
+    sleep(0.02)  # Krátká pauza na začátku smyčky pro stabilizaci
+
+    # Tlačítko 1
+    if not tlacitko1.value and not stisknuto1:  # Detekce stisknutí
+        print("Stisk tlačítka 1")
+        keyboard.press(Keycode.E)  
+        keyboard.release(Keycode.E)  
+        stisknuto1 = True  # Nastavení stavu tlačítka
+
+    elif tlacitko1.value:  # Detekce uvolnění
+        stisknuto1 = False
+
+    # Tlačítko 2
+    if not tlacitko2.value and not stisknuto2:
+        print("Stisk tlačítka 2")
+        keyboard.press(Keycode.F)  
+        keyboard.release(Keycode.F)  
+        stisknuto2 = True
+
+    elif tlacitko2.value:
+        stisknuto2 = False
+
+    # Tlačítko 3
+    if not tlacitko3.value and not stisknuto3:
+        print("Stisk tlačítka 3")
+        keyboard.press(Keycode.G)  
+        keyboard.release(Keycode.G)  
+        stisknuto3 = True
+
+    elif tlacitko3.value:
+        stisknuto3 = False
+
+    # Tlačítko 4
+    if not tlacitko4.value and not stisknuto4:
+        print("Stisk tlačítka 4")
+        keyboard.press(Keycode.H)  
+        keyboard.release(Keycode.H)  
+        stisknuto4 = True
+
+    elif tlacitko4.value:
+        stisknuto4 = False
+
+    # Tlačítko 5
+    if not tlacitko5.value and not stisknuto5:
+        print("Stisk tlačítka 5")
+        keyboard.press(Keycode.I)  
+        keyboard.release(Keycode.I)  
+        stisknuto5 = True
+
+    elif tlacitko5.value:
+        stisknuto5 = False
+
+    # Tlačítko 6
+    if not tlacitko6.value and not stisknuto6:
+        print("Stisk tlačítka 6")
+        keyboard.press(Keycode.J)  
+        keyboard.release(Keycode.J)  
+        stisknuto6 = True
+
+    elif tlacitko6.value:
+        stisknuto6 = False
+
+    # Tlačítko 7
+    if not tlacitko7.value and not stisknuto7:
+        print("Stisk tlačítka 7")
+        keyboard.press(Keycode.K)  
+        keyboard.release(Keycode.K)  
+        stisknuto7 = True
+
+    elif tlacitko7.value:
+        stisknuto7 = False
+
+    # Tlačítko 8
+    if not tlacitko8.value and not stisknuto8:
+        print("Stisk tlačítka 8")
+        keyboard.press(Keycode.L)  
+        keyboard.release(Keycode.L)  
+        stisknuto8 = True
+
+    elif tlacitko8.value:
+        stisknuto8 = False
+
+    # Tlačítko 9
+    if not tlacitko9.value and not stisknuto9:
+        print("Stisk tlačítka 9")
+        keyboard.press(Keycode.M)  
+        keyboard.release(Keycode.M)  
+        stisknuto9 = True
+
+    elif tlacitko9.value:
+        stisknuto9 = False
+
+    # Tlačítko 10
+    if not tlacitko10.value and not stisknuto10:
+        print("Stisk tlačítka 10")
+        keyboard.press(Keycode.N)  
+        keyboard.release(Keycode.N)  
+        stisknuto10 = True
+
+    elif tlacitko10.value:
+        stisknuto10 = False
+
+    # Tlačítko 11
+    if not tlacitko11.value and not stisknuto11:
+        print("Stisk tlačítka 11")
+        keyboard.press(Keycode.Q)
+        stisknuto11 = True  # Nastavení stavu tlačítka na stisknuté
+    elif tlacitko11.value:
+        keyboard.release(Keycode.Q)  # Uvolnění klávesy
+        stisknuto11 = False  # Obnovení stavu tlačítka
+
