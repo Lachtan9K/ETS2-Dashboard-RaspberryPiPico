@@ -88,57 +88,62 @@ while True:
     if not tlacitko1.value and not stisknuto1:  # Detekce stisknutí
         print("Stisk tlačítka 1")
         keyboard.press(Keycode.L)  
-        keyboard.release(Keycode.L)  
+         
         stisknuto1 = True  # Nastavení stavu tlačítka
 
     elif tlacitko1.value:  # Detekce uvolnění
+        keyboard.release(Keycode.L)  
         stisknuto1 = False
 
     # Tlačítko 2
     if not tlacitko2.value and not stisknuto2:
         print("Stisk tlačítka 2")
         keyboard.press(Keycode.KEYPAD_ZERO)  
-        keyboard.release(Keycode.KEYPAD_ZERO)  
+         
         stisknuto2 = True
 
     elif tlacitko2.value:
+        keyboard.release(Keycode.KEYPAD_ZERO) 
         stisknuto2 = False
 
     # Tlačítko 3
     if not tlacitko3.value and not stisknuto3:
         print("Stisk tlačítka 3")
         keyboard.press(Keycode.KEYPAD_NINE)  
-        keyboard.release(Keycode.KEYPAD_NINE)  
+         
         stisknuto3 = True
 
     elif tlacitko3.value:
+        keyboard.release(Keycode.KEYPAD_NINE) 
         stisknuto3 = False
 
     # Tlačítko 4
     if not tlacitko4.value and not stisknuto4:
         print("Stisk tlačítka 4")
         keyboard.press(Keycode.KEYPAD_EIGHT)  
-        keyboard.release(Keycode.KEYPAD_EIGHT)  
+         
         stisknuto4 = True
 
     elif tlacitko4.value:
+        keyboard.release(Keycode.KEYPAD_EIGHT) 
         stisknuto4 = False
 
     # Tlačítko 5
     if not tlacitko5.value and not stisknuto5:
         print("Stisk tlačítka 5")
         keyboard.press(Keycode.KEYPAD_SEVEN)  
-        keyboard.release(Keycode.KEYPAD_SEVEN)  
+         
         stisknuto5 = True
 
     elif tlacitko5.value:
+        keyboard.release(Keycode.KEYPAD_SEVEN)
         stisknuto5 = False
 
     # Tlačítko 6
     if not tlacitko6.value and not stisknuto6:
         print("Stisk tlačítka 6")
-        keyboard.press(Keycode.KEYPAD_SIX)  
-        keyboard.release(Keycode.KEYPAD_SIX)  
+        keyboard.press(Keycode.KEYPAD_SIX)
+        keyboard.release(Keycode.KEYPAD_SIX)
         stisknuto6 = True
 
     elif tlacitko6.value:
@@ -148,49 +153,56 @@ while True:
     if not tlacitko7.value and not stisknuto7:
         print("Stisk tlačítka 7")
         keyboard.press(Keycode.KEYPAD_FIVE)  
-        keyboard.release(Keycode.KEYPAD_FIVE)  
+          
         stisknuto7 = True
 
     elif tlacitko7.value:
+        keyboard.release(Keycode.KEYPAD_FIVE)
         stisknuto7 = False
 
     # Tlačítko 8
     if not tlacitko8.value and not stisknuto8:
         print("Stisk tlačítka 8")
         keyboard.press(Keycode.KEYPAD_FOUR)  
-        keyboard.release(Keycode.KEYPAD_FOUR)  
+          
         stisknuto8 = True
 
     elif tlacitko8.value:
+        keyboard.release(Keycode.KEYPAD_FOUR)
         stisknuto8 = False
 
     # Tlačítko 9
     if not tlacitko9.value and not stisknuto9:
         print("Stisk tlačítka 9")
         keyboard.press(Keycode.KEYPAD_THREE)  
-        keyboard.release(Keycode.KEYPAD_THREE)  
+          
         stisknuto9 = True
 
     elif tlacitko9.value:
+        keyboard.release(Keycode.KEYPAD_THREE)
         stisknuto9 = False
 
     # Tlačítko 10
     if not tlacitko10.value and not stisknuto10:
         print("Stisk tlačítka 10")
         keyboard.press(Keycode.KEYPAD_TWO)  
-        keyboard.release(Keycode.KEYPAD_TWO)  
+          
         stisknuto10 = True
 
     elif tlacitko10.value:
+        keyboard.release(Keycode.KEYPAD_TWO)
         stisknuto10 = False
 
     # Tlačítko 11
     if not tlacitko11.value and not stisknuto11:
         print("Stisk tlačítka 11")
         keyboard.press(Keycode.KEYPAD_ONE)
-        keyboard.release(Keycode.KEYPAD_ONE)  # Uvolnění klávesy
+        
         stisknuto11 = True  # Nastavení stavu tlačítka na stisknuté
         
     elif tlacitko11.value:
+        keyboard.release(Keycode.KEYPAD_ONE)
         stisknuto11 = False  # Obnovení stavu tlačítka
+
+
 
