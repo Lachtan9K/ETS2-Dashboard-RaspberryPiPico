@@ -14,7 +14,7 @@ Třída: T3A
 # Rychlé vysvětlení
 
 Celý tento program je dělaný v CircuitPythonu. Bylo potřeba kompletně reinstalovat (stačilo nukenout) Raspberry Pi Pico na Circuit. Instalace jsem provedl prostřednictvím aplikace Thonny.
-Přidávám zde i samotný dokončený program, prototyp programu, youtube odkaz k vysvětlení, návrh krabičky a knihovny které byly potřeba dát externě do Pica.
+Přidávám zde i samotný dokončený program, prototyp programu, youtube odkaz k vysvětlení, návrh krabičky a knihovny které byly potřeba dát externě do Pica. Mužete je najít v druhém branchy.
 
 --------------------------------------------------
 # ZÁVĚR  
