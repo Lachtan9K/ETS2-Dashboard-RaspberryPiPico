@@ -45,6 +45,16 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 ![image](https://github.com/user-attachments/assets/c51e9e60-e60e-414d-b1b5-0dc01085a4db)
 
+### Schéma zapojení 
+
+![image](https://github.com/user-attachments/assets/2c65e6ab-b055-41fc-aa3a-bae970531edd)
+
+### Zapojení uvnitř
+
+![image](https://github.com/user-attachments/assets/86264d0c-7c8f-4a7e-8736-069acabeef8c)
+
+
+
 --------------------------------------------------
 
 ## PODĚKOVÁNÍ
