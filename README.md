@@ -52,7 +52,9 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 ![image](https://github.com/user-attachments/assets/86264d0c-7c8f-4a7e-8736-069acabeef8c)
 
 
+## ZDROJE A LITERATURA
 
+HUI, Don. Raspberry Pi Pico - DIY Macro Keyboard. Online. 2021. Dostupné z: https://www.youtube.com/watch?v=aEWptdD32iA&t=596s. [cit. 2024-12-19].
 
 
 ## PODĚKOVÁNÍ
