@@ -35,7 +35,7 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 ### Projekt jako celek:
 
-![image](https://github.com/user-attachments/assets/eb41b2ec-d559-47f7-aa27-f7b4efc86015)
+![dashboardgif](https://github.com/user-attachments/assets/28985b96-4bd9-43a5-b7e7-1019fcb09cff)
 
 ## Zapojení projektu
 
