@@ -51,7 +51,7 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 ## Úprava - indikátor LED
 
-Napadlo mě, že bych si mohl udělat ještě indiktáor přes led diody, abych věděl, že dashboard funguje tak jak má. Led-ka se rozsvítí ihned po zapojení do sítě. Pro lepší udržitelnost a životnost led-ky jsem zařadil rezistor o hodnotě 500Ohmů do série.
+Napadlo mě, že bych si mohl udělat ještě indikátor přes led diodu, abych věděl, že dashboard funguje tak jak má. Led-ka se rozsvítí ihned po zapojení do sítě. Pro lepší udržitelnost a životnost led-ky jsem zařadil rezistor o hodnotě 500Ohmů do série. Led-ka svítí tak jak má a svítivost není přehnaná.
 
 ### Schéma zapojení led:
 
