@@ -88,4 +88,7 @@ Napadlo mě, že bych si mohl udělat ještě indikátor přes led diodu, abych 
 
 Chtěl bych zde poděkovat Petrovi Horníkovi za 3D vytisknutí držáku ke stolu. Moc mi to pomohlo. DĚKUJI.
 
+![image](https://github.com/user-attachments/assets/cd3289b0-3272-491b-a8b9-fc6acfdd8e8b)
+
+
 
