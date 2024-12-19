@@ -2,7 +2,7 @@
 
 ## INFORMACE
 
-### Projekt do školy SPŠ-ELIT Dobruška na předmět MPS 
+### Projekt do školy SPŠ-ELIT Dobruška na předmět: Mikropočítačové systémy vyučujícím Ing. Jiří Vintera
 
 Autor: Vojtěch Duben
 
