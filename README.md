@@ -21,6 +21,21 @@ Udělal jsem si dashboard pro hry/simulátory, kterým se dají ovládat určit�
 
 Mým cílem bylo si vytvořit něco, co bych využíval a nebylo to zbytečné. Mým cílem též bylo se naučit novým věcem co se týče programování a troubleshootingu. 
 
+# Použité komponenty:
+
+1. [Raspberry Pi Pico](https://www.alza.cz/raspberry-pi-pico-levne-d6722251.htm?kampan=adwkom_komponenty_pla_all_obecna-css_ostatni_c_1003823___RK100a9a_openbox_602743699871_~140047708760~&gad_source=1) 1x
+
+2. [Instalační-krabička](https://www.hadex.cz/o165a-instalacni-krabicka-sp-f2-158x90x60mm-vodotesna/) 1x
+
+3. [Vypináč-na-klíček](https://www.hadex.cz/l505a-prepinac-s-klicem-off-on-125v1a/) 1x
+
+4. [Tlačítko-Černé](https://www.hadex.cz/l249e-tlacitko-off-on-r13-502-230v1a-do-otvoru-12mm-cerne/) - 9x
+
+5. [Tlačítko-Červené](https://www.hadex.cz/l249b-tlacitko-off-on-r13-502-230v1a-do-otvoru-12mm-cervene/) - 1x
+
+![image](https://github.com/user-attachments/assets/6fe0db97-e4bb-4247-941d-326fd6ee211a)
+
+
 
 # ZÁVĚR  
 
