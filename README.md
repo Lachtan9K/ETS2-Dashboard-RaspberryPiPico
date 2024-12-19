@@ -35,14 +35,6 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 ![image](https://github.com/user-attachments/assets/eb41b2ec-d559-47f7-aa27-f7b4efc86015)
 
-### Dashboard
-
-![image](https://github.com/user-attachments/assets/668b3c6e-af29-40a3-85b8-1087e1b4d4a4)
-
-### Držák
-
-![image](https://github.com/user-attachments/assets/c51e9e60-e60e-414d-b1b5-0dc01085a4db)
-
 ### Schéma zapojení 
 
 ![image](https://github.com/user-attachments/assets/2c65e6ab-b055-41fc-aa3a-bae970531edd)
