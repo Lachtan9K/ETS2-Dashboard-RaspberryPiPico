@@ -72,6 +72,8 @@ Napadlo mě, že bych si mohl udělat ještě indiktáor přes led diody, abych 
 
 [2] PEENS, Vernon. DIY Macro Keyboard - Raspberry Pi Pico (Affordable & Awesome!). Online. 2023. Dostupné z: https://www.youtube.com/watch?v=7hYTQY_3xUc&t=115s. [cit. 2024-12-19].
 
+[3] Circuit Python - URL. Online. Dostupné z: https://circuitpython.org/. [cit. 2024-12-19].
+
 
 ## PODĚKOVÁNÍ
 
