@@ -35,6 +35,8 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 ![image](https://github.com/user-attachments/assets/eb41b2ec-d559-47f7-aa27-f7b4efc86015)
 
+## Zapojení projektu:
+
 ### Schéma zapojení 
 
 ![image](https://github.com/user-attachments/assets/2c65e6ab-b055-41fc-aa3a-bae970531edd)
@@ -43,7 +45,7 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 ![image](https://github.com/user-attachments/assets/86264d0c-7c8f-4a7e-8736-069acabeef8c)
 
-### Pinout Raspberry Pi Pico 
+## Pinout Raspberry Pi Pico - (v případě nouze)
 
 ![obrazek](https://github.com/user-attachments/assets/99b29c87-3fe5-45be-bf2c-7c511e57c76b)
 
