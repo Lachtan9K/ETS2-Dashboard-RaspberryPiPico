@@ -31,17 +31,17 @@ Poprvé jsem neměl vůbec páru jak programovat v CircuitPythonu, avšak je to 
 
 # FOTKY PROJEKTU
 
-### Projekt jako celek
+### Projekt jako celek:
 
 ![image](https://github.com/user-attachments/assets/eb41b2ec-d559-47f7-aa27-f7b4efc86015)
 
-## Zapojení projektu:
+## Zapojení projektu
 
-### Schéma zapojení 
+### Schéma zapojení:
 
 ![image](https://github.com/user-attachments/assets/2c65e6ab-b055-41fc-aa3a-bae970531edd)
 
-### Zapojení uvnitř
+### Zapojení uvnitř:
 
 ![image](https://github.com/user-attachments/assets/86264d0c-7c8f-4a7e-8736-069acabeef8c)
 
@@ -57,7 +57,7 @@ Napadlo mě, že bych si mohl udělat ještě indiktáor přes led diody, abych 
 
 ![image](https://github.com/user-attachments/assets/7bc3c716-b3a2-4357-91c1-003306192788)
 
-### Fotka v realitě
+### Fotka v realitě:
 
 ![image](https://github.com/user-attachments/assets/7e66fe57-0c94-46e7-b862-d3eee0790c95)
 
