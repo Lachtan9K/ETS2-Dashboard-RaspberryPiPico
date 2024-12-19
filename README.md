@@ -1,4 +1,4 @@
-# ETS2-Dashboard-RaspberryPiPico
+# 1. Pololetní projekt - Vojtěch Duben
 
 ## INFORMACE
 
