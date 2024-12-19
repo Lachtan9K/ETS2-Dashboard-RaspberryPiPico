@@ -10,6 +10,8 @@ Třída: T3A
 
 Školní rok: 2024/2025
 
+Projekt byl zadaný na základě ročníkové/pololetní práce. 
+
 # O co se jedná ?
 
 Udělal jsem si dashboard pro hry/simulátory, kterým se dají ovládat určité prvky např. řežim osvětlení vozů atd. Na dashboardu je 10 tlačítek a 1 vypínač na klíček, který slouží k nastartování vozu.
